@@ -1,12 +1,12 @@
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue'
 
-const isOpen = ref(false);
+const isOpen = ref(false)
 </script>
 
 <template>
   <button @click="isOpen = !isOpen">
-    {{ isOpen ? "Close" : "Open" }} Modal
+    {{ isOpen ? 'Close' : 'Open' }} Modal
   </button>
 
   <Teleport to="body">

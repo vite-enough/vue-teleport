@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import GlobalAlert from "./components/GlobalAlert.vue";
+import GlobalAlert from './components/GlobalAlert.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <img alt="Vue logo" src="/assets/logo.png" />
   <GlobalAlert />
 </template>
 
